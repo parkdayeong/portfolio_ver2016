@@ -1,24 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, maximum-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1" />
 
     <title>Homepage</title>
-    <link rel="icon" href="favicon.png" type="image/png">
-    <link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="favicon.ico" type="img/x-icon" />
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600" rel="stylesheet" type="text/css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="css/responsive.css" rel="stylesheet" type="text/css">
-    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
 
-    <!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+    <!--[if IE
+      ]><style type="text/css">
+        .pie {
+          behavior: url(PIE.htc);
+        }
+      </style><!
+    [endif]-->
 
     <script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -32,341 +45,503 @@
 
     <!-- 툴팁-->
     <script>
-        $(document).ready(function() {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
     </script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="header">
-        <h2>Hello, my name is Da young.<br> I
-            <span class="typer" id="main" data-words="'m a Web Designer,'m a Front-end Developer,do Creative" data-colors="#fff" data-delay="100" data-deleteDelay="3000"></span>
-            <span class="cursor" data-owner="main"></span>
-        </h2>
-<!--                <p><a href="#contact">Contact</a> : 010-4515-0718 / Kakao : molra0718 </p>-->
+      <h2>
+        Hello, my name is Da young.<br />
+        I
+        <span
+          class="typer"
+          id="main"
+          data-words="'m a Web Designer,'m a Front-end Developer,do Creative"
+          data-colors="#fff"
+          data-delay="100"
+          data-deleteDelay="3000"
+        ></span>
+        <span class="cursor" data-owner="main"></span>
+      </h2>
+      <!--                <p><a href="#contact">Contact</a> : 010-4515-0718 / Kakao : molra0718 </p>-->
     </div>
     <!--main-nav-start-->
     <div id="top"></div>
     <nav class="main-nav-outer" id="test">
-        <!--main-nav-start-->
-        <div class="container">
-            <ul class="main-nav">
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#service">SKILLS</a></li>
-                <li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
-                <li><a href="#client">ABOUT ME</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
-        </div>
-        
-        
-        
+      <!--main-nav-start-->
+      <div class="container">
+        <ul class="main-nav">
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#service">SKILLS</a></li>
+          <li class="small-logo">
+            <a href="#header"><img src="img/small-logo.png" alt="" /></a>
+          </li>
+          <li><a href="#client">ABOUT ME</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+      </div>
     </nav>
     <!--main-nav-end-->
 
-
     <section class="main-section padding" id="Portfolio">
-        <!--main-section-start-->
-        <div class="container">
-            <h2 style="margin-bottom:30px; ">PORtfolio</h2>
-            <div class="portfolioFilter">
-                <ul class="Portfolio-nav wow fadeIn delay-02s">
-                    <li><a href="#" data-filter="*" class="current">All</a></li>
-                    <li><a href="#" data-filter=".landing" data-toggle="tooltip" data-placement="top" title="랜딩/이벤트페이지 디자인">Landing,event</a></li>
-                    <li><a href="#" data-filter=".detail" data-toggle="tooltip" data-placement="top" title="상세페이지 디자인">Detail Page</a></li>
-                    <li><a href="#" data-filter=".webdesign" data-toggle="tooltip" data-placement="top" title="홈페이지,카페,블로그">Homepage,cafe,blog</a></li>
-                    <li><a href="#" data-filter=".print" data-toggle="tooltip" data-placement="top" title="인쇄/편집 디자인">Print design</a></li>
-                    <li><a href="#" data-filter=".ects">ects</a></li>
-
-                </ul>
-            </div>
-
+      <!--main-section-start-->
+      <div class="container">
+        <h2 style="margin-bottom: 30px">PORtfolio</h2>
+        <div class="portfolioFilter">
+          <ul class="Portfolio-nav wow fadeIn delay-02s">
+            <li><a href="#" data-filter="*" class="current">All</a></li>
+            <li>
+              <a
+                href="#"
+                data-filter=".landing"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="랜딩/이벤트페이지 디자인"
+                >Landing,event</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                data-filter=".detail"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="상세페이지 디자인"
+                >Detail Page</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                data-filter=".webdesign"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="홈페이지,카페,블로그"
+                >Homepage,cafe,blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                data-filter=".print"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="인쇄/편집 디자인"
+                >Print design</a
+              >
+            </li>
+            <li><a href="#" data-filter=".ects">ects</a></li>
+          </ul>
         </div>
+      </div>
 
-        <div class="portfolioContainer wow fadeInUp delay-04s">
-            <div class=" Portfolio-box landing">
-                <a href=".portfolioModal1" data-toggle="modal"><img src="img/landing/01-thumbnail.jpg" alt=""></a>
-                <h3>Sohyang Lapolis</h3>
-                <p>소향라포리스 이벤트 랜딩</p>
-            </div>
-            <div class="Portfolio-box landing">
-                <a href=".portfolioModal2" data-toggle="modal"><img src="img/landing/02-thumbnail.jpg" alt=""></a>
-                <h3>Yonsei Plastic Surgery</h3>
-                <p>연세성형외과 CRM 랜딩</p>
-            </div>
-            <div class="Portfolio-box landing">
-                <a href=".portfolioModal3" data-toggle="modal"><img src="img/landing/03-thumbnail.jpg" alt=""></a>
-                <h3>Coffee Hole Landing</h3>
-                <p>카페프랜차이즈 커피홀 랜딩</p>
-            </div>
-            <div class=" Portfolio-box landing">
-                <a href=".portfolioModal4" data-toggle="modal"><img src="img/landing/04-thumbnail.jpg" alt=""></a>
-                <h3>Wiznmi Plastic Surgery</h3>
-                <p>Branding</p>
-            </div>
-            <div class=" Portfolio-box detail">
-                <a href=".portfolioModal5" data-toggle="modal"><img src="img/detail/05-thumbnail.jpg" alt=""></a>
-                <h3>서툰살인 상세페이지</h3>
-                <p>호러연극 인터파크 상세페이지</p>
-            </div>
-            <div class=" Portfolio-box landing">
-                <a href=".portfolioModal6" data-toggle="modal"><img src="img/landing/06-thumbnail.jpg" alt=""></a>
-                <h3>DS Clinics</h3>
-                <p>Branding</p>
-            </div>
-            <div class=" Portfolio-box landing">
-                <a href=".portfolioModal7" data-toggle="modal"><img src="img/landing/07-thumbnail.jpg" alt=""></a>
-                <h3>경희장원한의원</h3>
-                <p>Branding</p>
-            </div>
-            <!--
+      <div class="portfolioContainer wow fadeInUp delay-04s">
+        <div class="Portfolio-box landing">
+          <a href=".portfolioModal1" data-toggle="modal"
+            ><img src="img/landing/01-thumbnail.jpg" alt=""
+          /></a>
+          <h3>Sohyang Lapolis</h3>
+          <p>소향라포리스 이벤트 랜딩</p>
+        </div>
+        <div class="Portfolio-box landing">
+          <a href=".portfolioModal2" data-toggle="modal"
+            ><img src="img/landing/02-thumbnail.jpg" alt=""
+          /></a>
+          <h3>Yonsei Plastic Surgery</h3>
+          <p>연세성형외과 CRM 랜딩</p>
+        </div>
+        <div class="Portfolio-box landing">
+          <a href=".portfolioModal3" data-toggle="modal"
+            ><img src="img/landing/03-thumbnail.jpg" alt=""
+          /></a>
+          <h3>Coffee Hole Landing</h3>
+          <p>카페프랜차이즈 커피홀 랜딩</p>
+        </div>
+        <div class="Portfolio-box landing">
+          <a href=".portfolioModal4" data-toggle="modal"
+            ><img src="img/landing/04-thumbnail.jpg" alt=""
+          /></a>
+          <h3>Wiznmi Plastic Surgery</h3>
+          <p>Branding</p>
+        </div>
+        <div class="Portfolio-box detail">
+          <a href=".portfolioModal5" data-toggle="modal"
+            ><img src="img/detail/05-thumbnail.jpg" alt=""
+          /></a>
+          <h3>서툰살인 상세페이지</h3>
+          <p>호러연극 인터파크 상세페이지</p>
+        </div>
+        <div class="Portfolio-box landing">
+          <a href=".portfolioModal6" data-toggle="modal"
+            ><img src="img/landing/06-thumbnail.jpg" alt=""
+          /></a>
+          <h3>DS Clinics</h3>
+          <p>Branding</p>
+        </div>
+        <div class="Portfolio-box landing">
+          <a href=".portfolioModal7" data-toggle="modal"
+            ><img src="img/landing/07-thumbnail.jpg" alt=""
+          /></a>
+          <h3>경희장원한의원</h3>
+          <p>Branding</p>
+        </div>
+        <!--
             <div class=" Portfolio-box landing">
                 <a href=".portfolioModal8" data-toggle="modal"><img src="img/landing/08-thumbnail.jpg" alt=""></a>
                 <h3>Galaxy Note FE</h3>
                 <p>Photography</p>
             </div>
 -->
-            <div class=" Portfolio-box landing">
-                <a href=".portfolioModal9" data-toggle="modal"><img src="img/landing/09-thumbnail.jpg" alt=""></a>
-                <h3>LG V30</h3>
-                <p>V30 풀시기념 이벤트</p>
-            </div>
-            <div class=" Portfolio-box landing">
-                <a href=".portfolioModal10" data-toggle="modal"><img src="img/landing/10-thumbnail.jpg" alt=""></a>
-                <h3>네이버카페 목사사</h3>
-                <p>카페 인증 이벤트</p>
-            </div>
-            <div class=" Portfolio-box landing">
-                <a href=".portfolioModal11" data-toggle="modal"><img src="img/landing/11-thumbnail.jpg" alt=""></a>
-                <h3>맘카페 카톡추가이벤트</h3>
-                <p>이벤트디자인</p>
-            </div>
-            <div class=" Portfolio-box detail">
-                <a href=".portfolioModal12" data-toggle="modal"><img src="img/detail/12-thumbnail.jpg" alt=""></a>
-                <h3>GANGBLY DUST MASK</h3>
-                <p>황사마스크 상세페이지</p>
-            </div>
-            <div class=" Portfolio-box detail">
-                <a href=".portfolioModal13" data-toggle="modal"><img src="img/detail/13-thumbnail.jpg" alt=""></a>
-                <h3>라비오레 디퓨저</h3>
-                <p>라비오레 디퓨저 상세페이지</p>
-            </div>
-            <div class=" Portfolio-box detail">
-                <a href=".portfolioModal14" data-toggle="modal"><img src="img/detail/14-thumbnail.jpg" alt=""></a>
-                <h3>BEBE MAMBO</h3>
-                <p>베베맘보 목튜브 상세페이지</p>
-            </div>
-            <div class=" Portfolio-box detail">
-                <a href=".portfolioModal15" data-toggle="modal"><img src="img/detail/15-thumbnail.jpg" alt=""></a>
-                <h3>PETTIROSSO</h3>
-                <p>여아명품핸드백 상세페이지</p>
-            </div>
-            <div class=" Portfolio-box detail">
-                <a href=".portfolioModal16" data-toggle="modal"><img src="img/detail/16-thumbnail.jpg" alt=""></a>
-                <h3>MSM</h3>
-                <p>영양제 상세페이지</p>
-            </div>
-            <div class=" Portfolio-box detail">
-                <a href=".portfolioModal17" data-toggle="modal"><img src="img/detail/17-thumbnail.jpg" alt=""></a>
-                <h3>DEOLOROSA DEFFUSER</h3>
-                <p>디퓨저 상세페이지</p>
-            </div>
-            <div class=" Portfolio-box detail">
-                <a href=".portfolioModal18" data-toggle="modal"><img src="img/detail/18-thumbnail.jpg" alt=""></a>
-                <h3>WE&UP 키즈영양제</h3>
-                <p>키즈영양제 상세페이지</p>
-            </div>
-            <div class=" Portfolio-box detail">
-                <a href=".portfolioModal19" data-toggle="modal"><img src="img/detail/19-thumbnail.jpg" alt=""></a>
-                <h3>잎새리빙 스투키</h3>
-                <p>스투키 상세페이지</p>
-            </div>
-            <div class=" Portfolio-box webdesign">
-                <a href=".portfolioModal20" data-toggle="modal"><img src="img/web/01-thumbnail.jpg" alt=""></a>
-                <h3>홈페이지 디자인</h3>
-                <p>파리바게트</p>
-            </div>
-            <div class=" Portfolio-box webdesign">
-                <a href=".portfolioModal21" data-toggle="modal"><img src="img/web/02-thumbnail.jpg" alt=""></a>
-                <h3>홈페이지 디자인</h3>
-                <p>PELTICS</p>
-            </div>
-            <div class=" Portfolio-box webdesign">
-                <a href=".portfolioModal22" data-toggle="modal"><img src="img/web/03-thumbnail.jpg" alt=""></a>
-                <h3>홈페이지 디자인</h3>
-                <p>inscobee</p>
-            </div>
-            <div class=" Portfolio-box webdesign">
-                <a href=".portfolioModal23" data-toggle="modal"><img src="img/web/04-thumbnail.jpg" alt=""></a>
-                <h3>홈페이지 디자인</h3>
-                <p>제주삼다수xKT특판</p>
-            </div>
-            <div class=" Portfolio-box webdesign">
-                <a href=".portfolioModal24" data-toggle="modal"><img src="img/web/05-thumbnail.jpg" alt=""></a>
-                <h3>맘카페 디자인</h3>
-                <p>맘카페 목사사 디자인</p>
-            </div>
-            <div class=" Portfolio-box webdesign">
-                <a href=".portfolioModal25" data-toggle="modal"><img src="img/web/06-thumbnail.jpg" alt=""></a>
-                <h3>공동구매카페 디자인</h3>
-                <p>스마트상식 카페 디자인</p>
-            </div>
-            <div class=" Portfolio-box webdesign">
-                <a href=".portfolioModal26" data-toggle="modal"><img src="img/web/07-thumbnail.jpg" alt=""></a>
-                <h3>홈페이지형 블로그 디자인</h3>
-                <p>PC방 프랜차이즈 피에스타PC방 블로그</p>
-            </div>
-            <div class=" Portfolio-box webdesign">
-                <a href=".portfolioModal27" data-toggle="modal"><img src="img/web/08-thumbnail.jpg" alt=""></a>
-                <h3>홈페이지형 블로그 디자인</h3>
-                <p>개인 블로그 디자인</p>
-            </div>
-                  <div class=" Portfolio-box webdesign">
-                <a href=".portfolioModal28" data-toggle="modal"><img src="img/web/09-thumbnail.jpg" alt=""></a>
-                <h3>홈페이지 디자인</h3>
-                <p>스마트공장 지원사업 홈페이지</p>
-            </div>
-                  <div class=" Portfolio-box print">
-                <a href=".portfolioModal29" data-toggle="modal"><img src="img/print/28-thumbnail.jpg" alt=""></a>
-                <h3>편집 디자인</h3>
-                <p>마렌플렛 광고 이미</p>
-            </div>
+        <div class="Portfolio-box landing">
+          <a href=".portfolioModal9" data-toggle="modal"
+            ><img src="img/landing/09-thumbnail.jpg" alt=""
+          /></a>
+          <h3>LG V30</h3>
+          <p>V30 풀시기념 이벤트</p>
         </div>
+        <div class="Portfolio-box landing">
+          <a href=".portfolioModal10" data-toggle="modal"
+            ><img src="img/landing/10-thumbnail.jpg" alt=""
+          /></a>
+          <h3>네이버카페 목사사</h3>
+          <p>카페 인증 이벤트</p>
+        </div>
+        <div class="Portfolio-box landing">
+          <a href=".portfolioModal11" data-toggle="modal"
+            ><img src="img/landing/11-thumbnail.jpg" alt=""
+          /></a>
+          <h3>맘카페 카톡추가이벤트</h3>
+          <p>이벤트디자인</p>
+        </div>
+        <div class="Portfolio-box detail">
+          <a href=".portfolioModal12" data-toggle="modal"
+            ><img src="img/detail/12-thumbnail.jpg" alt=""
+          /></a>
+          <h3>GANGBLY DUST MASK</h3>
+          <p>황사마스크 상세페이지</p>
+        </div>
+        <div class="Portfolio-box detail">
+          <a href=".portfolioModal13" data-toggle="modal"
+            ><img src="img/detail/13-thumbnail.jpg" alt=""
+          /></a>
+          <h3>라비오레 디퓨저</h3>
+          <p>라비오레 디퓨저 상세페이지</p>
+        </div>
+        <div class="Portfolio-box detail">
+          <a href=".portfolioModal14" data-toggle="modal"
+            ><img src="img/detail/14-thumbnail.jpg" alt=""
+          /></a>
+          <h3>BEBE MAMBO</h3>
+          <p>베베맘보 목튜브 상세페이지</p>
+        </div>
+        <div class="Portfolio-box detail">
+          <a href=".portfolioModal15" data-toggle="modal"
+            ><img src="img/detail/15-thumbnail.jpg" alt=""
+          /></a>
+          <h3>PETTIROSSO</h3>
+          <p>여아명품핸드백 상세페이지</p>
+        </div>
+        <div class="Portfolio-box detail">
+          <a href=".portfolioModal16" data-toggle="modal"
+            ><img src="img/detail/16-thumbnail.jpg" alt=""
+          /></a>
+          <h3>MSM</h3>
+          <p>영양제 상세페이지</p>
+        </div>
+        <div class="Portfolio-box detail">
+          <a href=".portfolioModal17" data-toggle="modal"
+            ><img src="img/detail/17-thumbnail.jpg" alt=""
+          /></a>
+          <h3>DEOLOROSA DEFFUSER</h3>
+          <p>디퓨저 상세페이지</p>
+        </div>
+        <div class="Portfolio-box detail">
+          <a href=".portfolioModal18" data-toggle="modal"
+            ><img src="img/detail/18-thumbnail.jpg" alt=""
+          /></a>
+          <h3>WE&UP 키즈영양제</h3>
+          <p>키즈영양제 상세페이지</p>
+        </div>
+        <div class="Portfolio-box detail">
+          <a href=".portfolioModal19" data-toggle="modal"
+            ><img src="img/detail/19-thumbnail.jpg" alt=""
+          /></a>
+          <h3>잎새리빙 스투키</h3>
+          <p>스투키 상세페이지</p>
+        </div>
+        <div class="Portfolio-box webdesign">
+          <a href=".portfolioModal20" data-toggle="modal"
+            ><img src="img/web/01-thumbnail.jpg" alt=""
+          /></a>
+          <h3>홈페이지 디자인</h3>
+          <p>파리바게트</p>
+        </div>
+        <div class="Portfolio-box webdesign">
+          <a href=".portfolioModal21" data-toggle="modal"
+            ><img src="img/web/02-thumbnail.jpg" alt=""
+          /></a>
+          <h3>홈페이지 디자인</h3>
+          <p>PELTICS</p>
+        </div>
+        <div class="Portfolio-box webdesign">
+          <a href=".portfolioModal22" data-toggle="modal"
+            ><img src="img/web/03-thumbnail.jpg" alt=""
+          /></a>
+          <h3>홈페이지 디자인</h3>
+          <p>inscobee</p>
+        </div>
+        <div class="Portfolio-box webdesign">
+          <a href=".portfolioModal23" data-toggle="modal"
+            ><img src="img/web/04-thumbnail.jpg" alt=""
+          /></a>
+          <h3>홈페이지 디자인</h3>
+          <p>제주삼다수xKT특판</p>
+        </div>
+        <div class="Portfolio-box webdesign">
+          <a href=".portfolioModal24" data-toggle="modal"
+            ><img src="img/web/05-thumbnail.jpg" alt=""
+          /></a>
+          <h3>맘카페 디자인</h3>
+          <p>맘카페 목사사 디자인</p>
+        </div>
+        <div class="Portfolio-box webdesign">
+          <a href=".portfolioModal25" data-toggle="modal"
+            ><img src="img/web/06-thumbnail.jpg" alt=""
+          /></a>
+          <h3>공동구매카페 디자인</h3>
+          <p>스마트상식 카페 디자인</p>
+        </div>
+        <div class="Portfolio-box webdesign">
+          <a href=".portfolioModal26" data-toggle="modal"
+            ><img src="img/web/07-thumbnail.jpg" alt=""
+          /></a>
+          <h3>홈페이지형 블로그 디자인</h3>
+          <p>PC방 프랜차이즈 피에스타PC방 블로그</p>
+        </div>
+        <div class="Portfolio-box webdesign">
+          <a href=".portfolioModal27" data-toggle="modal"
+            ><img src="img/web/08-thumbnail.jpg" alt=""
+          /></a>
+          <h3>홈페이지형 블로그 디자인</h3>
+          <p>개인 블로그 디자인</p>
+        </div>
+        <div class="Portfolio-box webdesign">
+          <a href=".portfolioModal28" data-toggle="modal"
+            ><img src="img/web/09-thumbnail.jpg" alt=""
+          /></a>
+          <h3>홈페이지 디자인</h3>
+          <p>스마트공장 지원사업 홈페이지</p>
+        </div>
+        <div class="Portfolio-box print">
+          <a href=".portfolioModal29" data-toggle="modal"
+            ><img src="img/print/28-thumbnail.jpg" alt=""
+          /></a>
+          <h3>편집 디자인</h3>
+          <p>마렌플렛 광고 이미</p>
+        </div>
+      </div>
     </section>
     <!--main-section-end-->
 
     <section class="main-section alabaster" id="service">
-        <!--main-section alabaster-start-->
-        <div class="container">
-            <div class="row">
-                <figure class="col-lg-5 col-sm-4 wow fadeInLeft">
-                    <img src="img/iphone.png" alt="">
-                </figure>
-                <div class="col-lg-7 col-sm-8 featured-work">
-                    <h2>SKILLS</h2>
-                    <p class="padding-b">안녕하세요.저는 웹디자이너 박다영입니다. <br> 웹에이전시 경력 有 / 프랜차이즈 경력有 / 자사몰 경력有 / 프리랜서 활동중<br>
-                        저는 판매자 입장에서 고민할 뿐 아니라,해당 이미지 타게팅 고객층을 고려하여 디자인합니다.
-                    </p>
-                    <div class="featured-box">
-                        <div class="featured-box-col1 wow fadeInRight delay-02s">
-                            <i class="fa-magic"></i>
-                        </div>
-                        <div class="featured-box-col2 wow fadeInRight delay-02s">
-                            <h3>PHOTOSHOP</h3>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-info active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 95%"> 95%
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                       <div class="featured-box">
-                        <div class="featured-box-col1 wow fadeInRight delay-02s">
-                            <i class="fa-magic"></i>
-                        </div>
-                        <div class="featured-box-col2 wow fadeInRight delay-02s">
-                            <h3>ILLUSTRATOR</h3>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-info active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%"> 80%
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                       <div class="featured-box">
-                        <div class="featured-box-col1 wow fadeInRight delay-02s">
-                            <i class="fa-magic"></i>
-                        </div>
-                        <div class="featured-box-col2 wow fadeInRight delay-02s">
-                            <h3>INDESIGN</h3>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-info active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 30%">30%
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                           <div class="featured-box">
-                        <div class="featured-box-col1 wow fadeInRight delay-02s">
-                            <i class="fa-magic"></i>
-                        </div>
-                        <div class="featured-box-col2 wow fadeInRight delay-02s">
-                            <h3>AFTER EFFECT, PREMERE PRO</h3>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-info active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10%
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                       <div class="featured-box">
-                        <div class="featured-box-col1 wow fadeInRight delay-02s">
-                            <i class="fa-magic"></i>
-                        </div>
-                        <div class="featured-box-col2 wow fadeInRight delay-02s">
-                            <h3>HTML5</h3>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 90%"> 90%
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                          <div class="featured-box">
-                        <div class="featured-box-col1 wow fadeInRight delay-02s">
-                            <i class="fa-magic"></i>
-                        </div>
-                        <div class="featured-box-col2 wow fadeInRight delay-02s">
-                            <h3>CSS</h3>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%"> 80%
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="featured-box">
-                        <div class="featured-box-col1 wow fadeInRight delay-02s">
-                            <i class="fa-magic"></i>
-                        </div>
-                        <div class="featured-box-col2 wow fadeInRight delay-02s">
-                            <h3>JQUERY</h3>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 50%"> 50%
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="featured-box">
-                        <div class="featured-box-col1 wow fadeInRight delay-02s">
-                            <i class="fa-magic"></i>
-                        </div>
-                        <div class="featured-box-col2 wow fadeInRight delay-02s">
-                            <h3>JAVASCRIPT</h3>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 10%"> 10%
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-              
-              
-                    <a class="Learn-More" href="#">Learn More</a>
+      <!--main-section alabaster-start-->
+      <div class="container">
+        <div class="row">
+          <figure class="col-lg-5 col-sm-4 wow fadeInLeft">
+            <img src="img/iphone.png" alt="" />
+          </figure>
+          <div class="col-lg-7 col-sm-8 featured-work">
+            <h2>SKILLS</h2>
+            <p class="padding-b">
+              안녕하세요.저는 웹디자이너 박다영입니다. <br />
+              웹에이전시 경력 有 / 프랜차이즈 경력有 / 자사몰 경력有 / 프리랜서 활동중<br />
+              저는 판매자 입장에서 고민할 뿐 아니라,해당 이미지 타게팅 고객층을 고려하여
+              디자인합니다.
+            </p>
+            <div class="featured-box">
+              <div class="featured-box-col1 wow fadeInRight delay-02s">
+                <i class="fa-magic"></i>
+              </div>
+              <div class="featured-box-col2 wow fadeInRight delay-02s">
+                <h3>PHOTOSHOP</h3>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-info active"
+                    role="progressbar"
+                    aria-valuenow="45"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 95%"
+                  >
+                    95%
+                  </div>
                 </div>
+              </div>
             </div>
+            <div class="featured-box">
+              <div class="featured-box-col1 wow fadeInRight delay-02s">
+                <i class="fa-magic"></i>
+              </div>
+              <div class="featured-box-col2 wow fadeInRight delay-02s">
+                <h3>ILLUSTRATOR</h3>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-info active"
+                    role="progressbar"
+                    aria-valuenow="45"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 80%"
+                  >
+                    80%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="featured-box">
+              <div class="featured-box-col1 wow fadeInRight delay-02s">
+                <i class="fa-magic"></i>
+              </div>
+              <div class="featured-box-col2 wow fadeInRight delay-02s">
+                <h3>INDESIGN</h3>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-info active"
+                    role="progressbar"
+                    aria-valuenow="45"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 30%"
+                  >
+                    30%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="featured-box">
+              <div class="featured-box-col1 wow fadeInRight delay-02s">
+                <i class="fa-magic"></i>
+              </div>
+              <div class="featured-box-col2 wow fadeInRight delay-02s">
+                <h3>AFTER EFFECT, PREMERE PRO</h3>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-info active"
+                    role="progressbar"
+                    aria-valuenow="45"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 10%"
+                  >
+                    10%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="featured-box">
+              <div class="featured-box-col1 wow fadeInRight delay-02s">
+                <i class="fa-magic"></i>
+              </div>
+              <div class="featured-box-col2 wow fadeInRight delay-02s">
+                <h3>HTML5</h3>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped active"
+                    role="progressbar"
+                    aria-valuenow="45"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 90%"
+                  >
+                    90%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="featured-box">
+              <div class="featured-box-col1 wow fadeInRight delay-02s">
+                <i class="fa-magic"></i>
+              </div>
+              <div class="featured-box-col2 wow fadeInRight delay-02s">
+                <h3>CSS</h3>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped active"
+                    role="progressbar"
+                    aria-valuenow="45"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 80%"
+                  >
+                    80%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="featured-box">
+              <div class="featured-box-col1 wow fadeInRight delay-02s">
+                <i class="fa-magic"></i>
+              </div>
+              <div class="featured-box-col2 wow fadeInRight delay-02s">
+                <h3>JQUERY</h3>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped"
+                    role="progressbar"
+                    aria-valuenow="45"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 50%"
+                  >
+                    50%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="featured-box">
+              <div class="featured-box-col1 wow fadeInRight delay-02s">
+                <i class="fa-magic"></i>
+              </div>
+              <div class="featured-box-col2 wow fadeInRight delay-02s">
+                <h3>JAVASCRIPT</h3>
+                <div class="progress">
+                  <div
+                    class="progress-bar progress-bar-striped active"
+                    role="progressbar"
+                    aria-valuenow="45"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 10%"
+                  >
+                    10%
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a class="Learn-More" href="#">Learn More</a>
+          </div>
         </div>
+      </div>
     </section>
     <!--main-section alabaster-end-->
 
     <section class="main-section client-part" id="client">
-        <!--main-section client-part-start-->
-        <div class="container">
-            <b class="quote-right wow fadeInDown delay-03"><i class="fa-quote-right"></i></b>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="client-part-haead wow fadeInDown delay-05">Web Designer Park da young</p>
-                </div>
-            </div>
+      <!--main-section client-part-start-->
+      <div class="container">
+        <b class="quote-right wow fadeInDown delay-03"><i class="fa-quote-right"></i></b>
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="client-part-haead wow fadeInDown delay-05">Web Designer Park da young</p>
+          </div>
+        </div>
 
-            <div class="team-leader-box">
-<!--
+        <div class="team-leader-box">
+          <!--
                 <div class="team-leader wow fadeInDown delay-03s">
                     <div class="team-leader-shadow"><a href="#"></a></div>
                     <img src="img/team-leader-pic1.jpg" alt="">
@@ -378,1124 +553,1422 @@
                     </ul>
                 </div>
 -->
-                <p class="wow fadeInDown delay-03s" style="margin-bottom: 5px; color: #fff; font-size: 1.3em;">/ 가능 작업 내용 /</p>
-                <p class="wow fadeInDown delay-03s" style="color: #d9d9d9;">쿠팡 · 위메프 · 티몬 · 상세페이지 · 네이버카페 · 블로그 <br> 네이버모두 · 스토어팜웹디자인 · 상세페이지 <br>인쇄디자인 · 전단지 · 브랜딩 · 로고제작 · 명함 · <br>  X배너 · 부트스트랩 · 워드프레스 · 카페24 · 그누보드 </p>
-            </div>
+          <p
+            class="wow fadeInDown delay-03s"
+            style="margin-bottom: 5px; color: #fff; font-size: 1.3em"
+          >
+            / 가능 작업 내용 /
+          </p>
+          <p class="wow fadeInDown delay-03s" style="color: #d9d9d9">
+            쿠팡 · 위메프 · 티몬 · 상세페이지 · 네이버카페 · 블로그 <br />
+            네이버모두 · 스토어팜웹디자인 · 상세페이지 <br />인쇄디자인 · 전단지 · 브랜딩 · 로고제작
+            · 명함 · <br />
+            X배너 · 부트스트랩 · 워드프레스 · 카페24 · 그누보드
+          </p>
         </div>
+      </div>
     </section>
     <!--main-section client-part-end-->
     <div class="c-logo-part">
-        <!--c-logo-part-start-->
-        <div class="container">
-            <ul>
-                <li><a href="#"><img src="img/c-liogo2.png" alt=""></a></li>
-                <li><a href="#"><img src="img/gnu-logo.png" alt=""></a></li>
-                <li><a href="#"><img src="img/cafe24-logo.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo4.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo5.png" alt=""></a></li>
-            </ul>
-        </div>
+      <!--c-logo-part-start-->
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#"><img src="img/c-liogo2.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/gnu-logo.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/cafe24-logo.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/c-liogo4.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/c-liogo5.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
     </div>
     <!--c-logo-part-end-->
 
     <section class="business-talking">
-        <!--business-talking-start-->
-        <div class="container">
-            <h2>Let’s Talk Business.</h2>
-        </div>
+      <!--business-talking-start-->
+      <div class="container">
+        <h2>Let’s Talk Business.</h2>
+      </div>
     </section>
     <!--business-talking-end-->
     <div class="container">
-        <section class="main-section contact" id="contact">
-
-            <div class="row">
-                <div class="col-lg-6 col-sm-7 wow fadeInLeft">
-<!--
+      <section class="main-section contact" id="contact">
+        <div class="row">
+          <div class="col-lg-6 col-sm-7 wow fadeInLeft">
+            <!--
                     <div class="contact-info-box address clearfix">
                         <h3><i class=" icon-map-marker"></i>Address:</h3>
                         <span>308 Negra Arroyo Lane<br>Albuquerque, New Mexico, 87111.</span>
                     </div>
 -->
-                    <div class="contact-info-box phone clearfix">
-                        <h3><i class="fa-phone"></i>Phone:</h3>
-                        <span>010-4515-0718<br><strong>KAKAO:</strong> <a href="">molra0718</a></span>
-                    </div>
-                    <div class="contact-info-box email clearfix">
-                        <h3><i class="fa-pencil"></i>email:</h3>
-                        <span>molra0000@naver.com</span>
-                    </div>
-                    <div class="contact-info-box hours clearfix">
-                        <h3><i class="fa-clock-o"></i>Hours:</h3>
-                        <span><strong>Monday - Friday:</strong> 10am - 7pm<br><!--<strong>Friday:</strong> People work on Fridays now?<br>--><strong>Saturday - Sunday:</strong> Best not to ask.</span>
-                    </div>
-                    <ul class="social-link">
-                        <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>
-                        <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>
-                        <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>
-                        <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
-                        <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
-                    <div class="dd">
-
-                   
-
-                            <div class="text-center"><button type="submit" class="input-btn">카톡상담 바로가기</button></div>
-
-                    </div>
-                </div>
+            <div class="contact-info-box phone clearfix">
+              <h3><i class="fa-phone"></i>Phone:</h3>
+              <span>010-4515-0718<br /><strong>KAKAO:</strong> <a href="">molra0718</a></span>
             </div>
-        </section>
+            <div class="contact-info-box email clearfix">
+              <h3><i class="fa-pencil"></i>email:</h3>
+              <span>molra0000@naver.com</span>
+            </div>
+            <div class="contact-info-box hours clearfix">
+              <h3><i class="fa-clock-o"></i>Hours:</h3>
+              <span
+                ><strong>Monday - Friday:</strong> 10am - 7pm<br /><!--<strong>Friday:</strong> People work on Fridays now?<br>--><strong
+                  >Saturday - Sunday:</strong
+                >
+                Best not to ask.</span
+              >
+            </div>
+            <ul class="social-link">
+              <li class="twitter">
+                <a href="#"><i class="fa-twitter"></i></a>
+              </li>
+              <li class="facebook">
+                <a href="#"><i class="fa-facebook"></i></a>
+              </li>
+              <li class="pinterest">
+                <a href="#"><i class="fa-pinterest"></i></a>
+              </li>
+              <li class="gplus">
+                <a href="#"><i class="fa-google-plus"></i></a>
+              </li>
+              <li class="dribbble">
+                <a href="#"><i class="fa-dribbble"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+            <div class="dd">
+              <div class="text-center">
+                <button type="submit" class="input-btn">카톡상담 바로가기</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     <footer class="footer">
-        <div class="container">
-            <!--            <div class="footer-logo"><a href="#"><img src="img/footer-logo.png" alt=""></a></div>-->
-            <span class="copyright">&copy; Web Desinger DA YOUNG. All Rights Reserved</span>
-            <div class="credits">
-                <!-- 
+      <div class="container">
+        <!--            <div class="footer-logo"><a href="#"><img src="img/footer-logo.png" alt=""></a></div>-->
+        <span class="copyright">&copy; Web Desinger DA YOUNG. All Rights Reserved</span>
+        <div class="credits">
+          <!-- 
                 All the links in the footer should remain intact. 
                 You can delete the links only if you purchased the pro version.
                 Licensing information: https://bootstrapmade.com/license/
                 Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Knight
             -->
-                <a href="#Portfolio">010 · 4515 · 0718</a> / <a href="https://www.naver.com/">molra0000@naver.com</a>
-            </div>
+          <a href="#Portfolio">010 · 4515 · 0718</a> /
+          <a href="https://www.naver.com/">molra0000@naver.com</a>
         </div>
+      </div>
     </footer>
 
-
-
     <!--portfolio modal1-->
-    <div class="modal fade portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/landing/01-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/landing/01-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal2-->
-    <div class="modal fade portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/landing/02-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/landing/02-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal3-->
-    <div class="modal fade portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/landing/03-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/landing/03-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal4-->
-    <div class="modal fade portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/landing/04-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/landing/04-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal5-->
-    <div class="modal fade portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/detail/05-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/detail/05-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal6-->
-    <div class="modal fade portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/landing/06-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/landing/06-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal7-->
-    <div class="modal fade portfolioModal7" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal7"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/landing/07-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/landing/07-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal8-->
-    <div class="modal fade portfolioModal8" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal8"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/landing/08-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/landing/08-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal9-->
-    <div class="modal fade portfolioModal9" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal9"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/landing/09-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/landing/09-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal10-->
-    <div class="modal fade portfolioModal10" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal10"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/landing/10-full.gif" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/landing/10-full.gif" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal11-->
-    <div class="modal fade portfolioModal11" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal11"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/landing/11-full.gif" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/landing/11-full.gif" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal12-->
-    <div class="modal fade portfolioModal12" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal12"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/detail/12-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/detail/12-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
 
     <!--portfolio modal13-->
-    <div class="modal fade portfolioModal13" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal13"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/detail/13-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/detail/13-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal14-->
-    <div class="modal fade portfolioModal14" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal14"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/detail/14-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/detail/14-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal15-->
-    <div class="modal fade portfolioModal15" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal15"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/detail/15-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/detail/15-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal16-->
-    <div class="modal fade portfolioModal16" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal16"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/detail/16-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/detail/16-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal17-->
-    <div class="modal fade portfolioModal17" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal17"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/detail/17-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/detail/17-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal18-->
-    <div class="modal fade portfolioModal18" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal18"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/detail/18-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/detail/18-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal19-->
-    <div class="modal fade portfolioModal19" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal19"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/detail/19-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/detail/19-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
-    
-<!--포트폴리오 웹 시작-->
+
+    <!--포트폴리오 웹 시작-->
     <!--portfolio modal20-->
-    <div class="modal fade portfolioModal20" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal20"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3"><img src="img/web/01-full.jpg" alt="" /></div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/web/01-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal21-->
-    <div class="modal fade portfolioModal21" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal21"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3"><img src="img/web/02-full.jpg" alt="" /></div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/web/02-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
 
     <!--portfolio modal22-->
-    <div class="modal fade portfolioModal22" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal22"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3"><img src="img/web/03-full.jpg" alt="" /></div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/web/03-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
     <!--portfolio modal23-->
-    <div class="modal fade portfolioModal23" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal23"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3"><img src="img/web/04-full.png" alt="" /></div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/web/04-full.png" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
-   <!--portfolio modal24-->
-    <div class="modal fade portfolioModal24" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <!--portfolio modal24-->
+    <div
+      class="modal fade portfolioModal24"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3"><img src="img/web/05-full.png" alt="" /></div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/web/05-full.png" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
-   <!--portfolio modal25-->
-    <div class="modal fade portfolioModal25" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <!--portfolio modal25-->
+    <div
+      class="modal fade portfolioModal25"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3"><img src="img/web/06-full.png" alt="" /></div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/web/06-full.png" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
 
-   <!--portfolio modal26-->
-    <div class="modal fade portfolioModal26" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <!--portfolio modal26-->
+    <div
+      class="modal fade portfolioModal26"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3"><img src="img/web/07-full.jpg" alt="" /></div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/web/07-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
-   <!--portfolio modal27-->
-    <div class="modal fade portfolioModal27" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <!--portfolio modal27-->
+    <div
+      class="modal fade portfolioModal27"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3"><img src="img/web/08-full.gif" alt="" /></div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/web/08-full.gif" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
-   <!--portfolio modal28-->
-    <div class="modal fade portfolioModal28" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <!--portfolio modal28-->
+    <div
+      class="modal fade portfolioModal28"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3"><img src="img/web/09-full.png" alt="" /></div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/web/09-full.png" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
-<!--포트폴리오 웹 끝-->
-<!--포트폴리오 편집 시작-->
+    <!--포트폴리오 웹 끝-->
+    <!--포트폴리오 편집 시작-->
     <!--portfolio modal29-->
-    <div class="modal fade portfolioModal29" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                    <h2 class="modal-title">Modal title</h2>
-                    <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+    <div
+      class="modal fade portfolioModal29"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">X</span>
+            </button>
+            <h2 class="modal-title">Modal title</h2>
+            <p class="modal-intro">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img src="img/print/28-full.jpg" alt="" />
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3"><img src="img/print/28-full.jpg" alt=""></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <p class="modal-description">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="modal-date">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <p class="modal-description"></p>
+                  <ul class="modal-date">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
 
-<!--포트폴리오 편집 끝-->
-
+    <!--포트폴리오 편집 끝-->
 
     <!--스크립트-->
 
     <script type="text/javascript">
-        $(document).ready(function(e) {
-            $('#test').scrollToFixed();
-            $('.res-nav_click').click(function() {
-                $('.main-nav').slideToggle();
-                return false
-
-            });
-
+      $(document).ready(function (e) {
+        $('#test').scrollToFixed();
+        $('.res-nav_click').click(function () {
+          $('.main-nav').slideToggle();
+          return false;
         });
+      });
     </script>
 
     <script>
-        wow = new WOW({
-            animateClass: 'animated',
-            offset: 100
-        });
-        wow.init();
+      wow = new WOW({
+        animateClass: 'animated',
+        offset: 100,
+      });
+      wow.init();
     </script>
 
-
     <script type="text/javascript">
-        $(window).load(function() {
+      $(window).load(function () {
+        $('.main-nav li a, .servicelink').bind('click', function (event) {
+          var $anchor = $(this);
 
-            $('.main-nav li a, .servicelink').bind('click', function(event) {
-                var $anchor = $(this);
-
-                $('html, body').stop().animate({
-                    scrollTop: $($anchor.attr('href')).offset().top - 102
-                }, 1500, 'easeInOutExpo');
-                /*
+          $('html, body')
+            .stop()
+            .animate(
+              {
+                scrollTop: $($anchor.attr('href')).offset().top - 102,
+              },
+              1500,
+              'easeInOutExpo'
+            );
+          /*
                 if you don't want to use the easing effects:
                 $('html, body').stop().animate({
                 	scrollTop: $($anchor.attr('href')).offset().top
                 }, 1000);
                 */
-                if ($(window).width() < 768) {
-                    $('.main-nav').hide();
-                }
-                event.preventDefault();
-            });
-        })
+          if ($(window).width() < 768) {
+            $('.main-nav').hide();
+          }
+          event.preventDefault();
+        });
+      });
     </script>
 
     <script type="text/javascript">
-        $(window).load(function() {
+      $(window).load(function () {
+        var $container = $('.portfolioContainer'),
+          $body = $('body'),
+          colW = 375,
+          columns = null;
 
-
-            var $container = $('.portfolioContainer'),
-                $body = $('body'),
-                colW = 375,
-                columns = null;
-
-
-            $container.isotope({
-                // disable window resizing
-                resizable: true,
-                masonry: {
-                    columnWidth: colW
-                }
-            });
-
-            $(window).smartresize(function() {
-                // check if columns has changed
-                var currentColumns = Math.floor(($body.width() - 30) / colW);
-                if (currentColumns !== columns) {
-                    // set new column count
-                    columns = currentColumns;
-                    // apply width to container manually, then trigger relayout
-                    $container.width(columns * colW)
-                        .isotope('reLayout');
-                }
-
-            }).smartresize(); // trigger resize to set container width
-            $('.portfolioFilter a').click(function() {
-                $('.portfolioFilter .current').removeClass('current');
-                $(this).addClass('current');
-
-                var selector = $(this).attr('data-filter');
-                $container.isotope({
-
-                    filter: selector,
-                });
-                return false;
-            });
-
+        $container.isotope({
+          // disable window resizing
+          resizable: true,
+          masonry: {
+            columnWidth: colW,
+          },
         });
+
+        $(window)
+          .smartresize(function () {
+            // check if columns has changed
+            var currentColumns = Math.floor(($body.width() - 30) / colW);
+            if (currentColumns !== columns) {
+              // set new column count
+              columns = currentColumns;
+              // apply width to container manually, then trigger relayout
+              $container.width(columns * colW).isotope('reLayout');
+            }
+          })
+          .smartresize(); // trigger resize to set container width
+        $('.portfolioFilter a').click(function () {
+          $('.portfolioFilter .current').removeClass('current');
+          $(this).addClass('current');
+
+          var selector = $(this).attr('data-filter');
+          $container.isotope({
+            filter: selector,
+          });
+          return false;
+        });
+      });
     </script>
     <script type="text/javascript" src="js/typer.js"></script>
-</body>
-
+  </body>
 </html>
