@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>pmyFormMail</title>
+<meta http-equiv='Content-Type' content='text/html; charset=euc-kr'>
+<link rel='stylesheet' href='style.css' type='text/css'>
+</head>
+
+<body bgcolor='white' text='black' leftmargin='0' topmargin='0' marginwidth='0' marginheight='0'>
+
+
+<script language='javascript'>
+<!--
+
+function addFile()
+{
+	fileDiv.insertAdjacentElement("BeforeEnd",document.createElement("<br><br>"));
+	fileDiv.insertAdjacentElement("BeforeEnd",document.createElement("<input type='file' name='file[]' style='width:228px' class='gbox'>"));
+}
+
+function addToMail()
+{
+	ToMail.insertAdjacentElement("BeforeEnd",document.createElement("<br><br>"));
+	ToMail.insertAdjacentElement("BeforeEnd",document.createElement("<input type='text' name='to[]' size='36' class='gbox' style='background:#FFE8E8'>"));
+}
+
+-->
+</script>
+
+<br>
+<center><b>pmyFormMail</b></center>
+
+<form method='post' name='fwrite' enctype='multipart/form-data' action='send.php'>
+
+<table cellpadding='0' cellspacing='0' border='0' align='center'>
+<tr>
+<td>From Name</td>
+<td><input type='text' name='fname' size='36' class='gbox'></td>
+</tr>
+
+<tr>
+<td>From Mail</td>
+<td><input type='text' name='fmail' size='36' class='gbox'></td>
+</tr>
+
+<tr>
+<td><a href=javascript:void(0) onclick="addToMail();return false" title="보내는 사람 추가"><b>To Mail</b></a></td>
+<td><div id='ToMail'><input type='text' name='to[]' size='36' class='gbox' style='background:#FFE8E8'></div></td>
+</tr>
+
+<tr>
+<td>Word Type</td>
+<td><input type='radio' name='html' value='0' checked>text/plain <input type='radio' name='html' value='1'>text/html</td>
+</tr>
+
+<tr>
+<td>Subject</td>
+<td><input type='text' name='subject' size='36' class='gbox'></td>
+</tr>
+
+<tr>
+<td colspan='2'><textarea name='word' style='width:296px; height:128px' class='gbox'></textarea></td>
+</tr>
+
+<tr>
+<td><a href=javascript:void(0) onclick="addFile();return false" title="파일 첨부 추가"><b>Append File</b></a></td>
+<td>
+<div id='fileDiv'><input type='file' name='file[]' style='width:228px' class='gbox'></div>
+</tr>
+
+<tr><td colspan='2' height='5'></td></tr>
+
+<tr>
+<td colspan='2' align='center'>
+<input type='submit' value='confirm' class='gbox' style='cursor:hand; height:18px'>
+<input type='reset' value='clear' class='gbox' style='cursor:hand; height:18px'>
+</td>
+</tr>
+
+</form>
+
+</body>
+</html>

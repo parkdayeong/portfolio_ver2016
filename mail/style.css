@@ -1,0 +1,16 @@
+
+body {scrollbar-face-color: #dddddd; scrollbar-shadow-color: #aaaaaa; scrollbar-highlight-color: #ffffff; scrollbar-3dlight-color: #999999; scrollbar-darkshadow-color: #999999; scrollbar-track-color: #eeeeee; scrollbar-arrow-color: #ffffff}
+small{line-height:16px;}
+
+body, table, tr, td, select, textarea, input  {  font-family: "µ¸¿ò", "±¼¸²", "Verdana", "arial"; font-size: 12px; line-height: 16px; color: #333333; text-decoration: none}
+
+a:active {  font-family: "µ¸¿ò", "±¼¸²", "verdana", "arial"; font-size: 12px; line-height: 16px; color: #333333; text-decoration: none}
+a:link {  font-family: "µ¸¿ò", "±¼¸²", "Verdana", "Arial"; font-size: 12px; line-height: 16px; color: #333333; text-decoration: none}
+a:visited {  font-family: "µ¸¿ò", "±¼¸²", "Verdana", "Arial"; font-size: 12px; line-height: 16px; color: #333333; text-decoration: none}
+a:hover {  font-family: "µ¸¿ò", "±¼¸²", "Verdana", "Arial"; font-size: 12px; line-height: 16px; color: #333333; text-decoration: underline}
+
+
+.gbox {text-decoration: none; border:gray ; border-style:solid; border-top-width:1px; border-right-width:1px; border-bottom-width:1px; border-left-width:1px; vertical-align:middle;}
+.sdate {font-size:8pt;}
+
+
